@@ -5,7 +5,43 @@
 [![Next.js](https://img.shields.io/badge/Next.js-15-%23000000?logo=nextdotjs)](https://nextjs.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-20-green?logo=node.js)](https://nodejs.org/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4-blue?logo=tailwindcss)](https://tailwindcss.com/)
+## 📈 Daily Progress Simulation: Compounding Mastery
 
+> *"Slow and steady wins the race, making progress one step at a time."*
+
+Continuous daily engagement compounds exponentially. By analyzing historical performance metrics and applying targeted micro-testing, the platform flattens the forgetting curve and accelerates quantitative pattern recognition.
+
+<p align="center">
+  <img src="progress.png" width="100%" alt="Daily Progress Simulation Graph" />
+</p>
+
+---
+
+## 📈 Daily Progress Simulation: Compounding Mastery
+
+> *"Slow and steady wins the race, making progress one step at a time."*
+
+Continuous daily engagement compounds exponentially. By analyzing historical performance metrics and applying targeted micro-testing, the platform flattens the forgetting curve and accelerates quantitative pattern recognition.
+
+### 🎮 System Level Up: 30-Day Practice Trajectory
+
+```text
+Score
+ (170) ──┐                                                           ◆ [Day 30: Quantitative Comparison Precision]
+         │                                                        ✔
+ (160) ──┼─────────────────────────◆ [Day 15: Algebra Pattern] ──┘
+         │                      ✔
+ (150) ──┼──◆ [Day 5: Arithmetic] ┘
+         │ 📱
+ (145) ──◆ [Day 1: Base Diagnostics]
+         │
+         └─────────────────────────────────────────────────────────────────────────────►
+        Day 0                     Day 5                     Day 15                    Day 30
+
+                                Days (Practice Consistency)
+
+```
+---
 PrepForge AI disrupts the pricey standardized testing market by offering an open-access, production-grade GRE Quantitative preparation platform. Built with a robust MERN/Next.js architecture and powered by localized LLM prompt-engineering, PrepForge allows students to practice curated mock exams or dynamically synthesize customized, section-specific sub-tests (e.g., Arithmetic, Algebra, Geometry) on demand.
 
 [Explore Live Demo] · [Report Bug] · [Request Feature]
@@ -99,6 +135,17 @@ PrepForge AI is designed for optimal decoupling, low-latency rendering, and cost
 [ ] Phase 3: LLM Integration Module — Prompt-engineered templates enforcing strict JSON schema parsing for dynamic section-specific test synthesis.
 
 [ ] Phase 4: Monetization Hook — Integration of Stripe webhooks to differentiate between free tier limits and unlimited premium analytical dashboards.
+
+## 🎯 MVP Roadmap
+
+| System Module | Development Status | Engineering Power-Up |
+| :--- | :---: | :--- |
+| **Phase 1: Architecture Foundation** | ![not-started](https://img.shields.io/badge/Status-100%25%20Stable-success?style=flat-square&logo=nestjs) | `CORE_UNLOCKED` 🔓 (+100% Architecture Integrity) |
+| **Phase 2: Exam Simulation Engine** | ![not-started](https://img.shields.io/badge/Status-Compiling--25%25-orange?style=flat-square&logo=typescript&logoColor=white) | `SYNC_ENGAGED` ⏳ (Chrono-state persistence tuning) |
+| **Phase 3: LLM Integration Module** | ![not-started](https://img.shields.io/badge/Status-Queued-lightgrey?style=flat-square) | `AI_PROMPT_PIPELINE` 🧠 (Awaiting JSON structural schema validation) |
+| **Phase 4: Monetization Hook** | ![not-started](https://img.shields.io/badge/Status-Queued-lightgrey?style=flat-square) | `REVENUE_GATEWAY` 💳 (Stripe webhook infrastructure) |
+
+<p align="right">(<i>Engineered with precision for standardized testing excellence.</i>)</p>
 
 🤝 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
