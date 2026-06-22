@@ -64,18 +64,19 @@ PrepForge AI is designed for optimal decoupling, low-latency rendering, and cost
 ## 🛠️ Tech Stack Specification
 
 * **Framework:** NestJS (v10.x) — A progressive Node.js framework for building efficient, reliable, and scalable server-side applications.
-* **Runtime:** Node.js (v20.x LTS)[cite: 1].
-* **Database Layer:** MongoDB cloud cluster managed seamlessly via **Prisma ORM**[cite: 1].
-* **AI Orchestration:** Native OpenAI SDK / LangChain integration utilizing structured outputs (`response_format: { type: "json_object" }`) to guarantee strict validation of question-and-answer schemas[cite: 1].
+* **Runtime:** Node.js (v20.x LTS).
+* * **Language:** TypeScript (v5.x) — Enforcing strict type-safety, robust interfaces, and modern ECMAScript compilation across all server modules.
+* **Database Layer:** MongoDB cloud cluster managed seamlessly via **Prisma ORM**.
+* **AI Orchestration:** Native OpenAI SDK / LangChain integration utilizing structured outputs (`response_format: { type: "json_object" }`) to guarantee strict validation of question-and-answer schemas.
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-* Node.js (v18.x or v20.x recommended)[cite: 1]
-* MongoDB Instance (Local daemon or Atlas Cloud Connection URI)[cite: 1]
-* OpenAI API Key (or equivalent LLM provider credentials)[cite: 1]
+* Node.js (v18.x or v20.x recommended) 
+* MongoDB Instance (Local daemon or Atlas Cloud Connection URI) 
+* OpenAI API Key (or equivalent LLM provider credentials) 
 
 ### Installation & Local Setup
 
@@ -83,12 +84,39 @@ PrepForge AI is designed for optimal decoupling, low-latency rendering, and cost
 ```bash
    git clone [https://github.com/yourusername/prepforge-ai.git](https://github.com/yourusername/prepforge-ai.git)
    cd prepforge-ai/backend
-   ```[cite: 1]
+   ``` 
 
 2. **Install Dependencies:**
 ```bash
    npm install
-   ```[cite: 1]
+   ```
+
+🎯 MVP Roadmap
+[x] Phase 1: Architecture Foundation — NestJS core integration, TypeScript strict configurations, Prisma schema mapping for MongoDB, and secure JWT-based Auth Guarding.
+
+[ ] Phase 2: Exam Simulation Engine — Multi-step test pipelines, server-side timer state synchronization, and LaTeX formatting support for quantitative math formulas.
+
+[ ] Phase 3: LLM Integration Module — Prompt-engineered templates enforcing strict JSON schema parsing for dynamic section-specific test synthesis.
+
+[ ] Phase 4: Monetization Hook — Integration of Stripe webhooks to differentiate between free tier limits and unlimited premium analytical dashboards.
+
+🤝 Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+Fork the Project
+
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+
+Push to the Branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+📜 License
+Distributed under the MIT License. See LICENSE for more information.
+
+Engineered with precision for standardized testing excellence.
 
 3. **Environment Configuration:**
    Create a `.env` file in the root of your backend directory:
@@ -97,14 +125,15 @@ PrepForge AI is designed for optimal decoupling, low-latency rendering, and cost
    DATABASE_URL="mongodb+srv://<username>:<password>@cluster.mongodb.net/prepforge?retryWrites=true&w=majority"
    JWT_SECRET=your_ultra_secure_jwt_secret
    OPENAI_API_KEY=sk-proj-xxxxxxxxxxxxxxxxxxxxxxxx
-   ```[cite: 1]
+   ``` 
 
 4. **Initialize Prisma Client:**
    Generate the Prisma client based on the database schema mappings:
 ```bash
    npx prisma generate
-   ```[cite: 1]
+   ``` 
 
 5. **Launch the Development Server:**
 ```bash
    npm run start:dev
+```
